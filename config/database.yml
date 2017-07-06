@@ -47,8 +47,8 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: pastorsearch_v2_test
+  database: travis_ci_test
   pool: 5
-  username: lance.leonard
+  username: postgres
   password:
   timeout: 5000
